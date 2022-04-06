@@ -1,3 +1,4 @@
+
 # Papers
 近几年的一些文章和工具
 
@@ -34,33 +35,33 @@
     
     为了hw临时写的一个工具，主要是使用python调用了多个工具对目标进行自动化的信息搜集并分析结果，主要包括网站子域名、开放端口、端口指纹、c段地址、敏感目录、链接爬取等信息。
     
-    ```
-    https://github.com/TideSec/FuzzScanner
-    ```
+
+    [https://github.com/TideSec/FuzzScanner](https://github.com/TideSec/FuzzScanner)
+
     
 - 《2018.09-Tide(潮汐)网络空间探测平台建设思路分享》
     
     花费了两三个月做了一个类似fofa、钟馗之眼的网络空间探测平台，文章介绍了基本的思路和实现方法，开始是计划开源的，因为政策监管问题目前只是内部在使用。
     
-    ```
-    https://github.com/TideSec/Tide
-    ```
+
+    [https://github.com/TideSec/Tide](https://github.com/TideSec/Tide)
+
     
 - 《2018.12-Web弱口令通用检测方法探究》
     
     提供了一个通用web弱口令破解思路，最初是为了批量探测管理后台，后来加入了管理后台弱口令的探测，旨在批量检测那些没有验证码的管理后台，有验证码的除了OCR、卷积神经网络或者人工打码平台，目前还没法有效解决。
     
-    ```
-    https://github.com/TideSec/web_pwd_common_crack
-    ```
+
+    [https://github.com/TideSec/web_pwd_common_crack](https://github.com/TideSec/web_pwd_common_crack)
+
     
 - 《2019.03-Proxy_Pool自动化代理搜集+评估+存储+展示工具》
 
     Proxy_Pool（代理资源池），一个小巧的代理ip抓取+评估+存储+展示的一体化的工具，包括了web展示和接口。
     
-    ```
-    https://github.com/TideSec/Proxy_Pool
-    ```
+
+    [https://github.com/TideSec/Proxy_Pool](https://github.com/TideSec/Proxy_Pool)
+
     
 - 《2019.04-渗透测试团队技术评级那些事儿》
 
@@ -70,17 +71,17 @@
 
     潮汐指纹平台的实现原理，汲取整合了多个web指纹库，结合了多种指纹检测方法，让指纹检测更快捷、准确。在线平台也断断续续的更新和完善，不过有时工作忙起来可能几个月也不看一次了。
     
-    ```
-    https://github.com/TideSec/TideFinger
-    ```
+
+    [https://github.com/TideSec/TideFinger](https://github.com/TideSec/TideFinger)
+
     
 - 《2019.05-分布式web漏洞扫描平台WDScanner》
 
     算是自己最早期写的一个平台了，php+python实现的，代码写的比较烂，不过功能全是比较全面的，一直打算重新升级改造一些，一直没时间动手，看现在市面上相似的平台更多，更是没动力去写了。
     
-    ```
-    https://github.com/TideSec/WDScanner
-    ```
+
+    [https://github.com/TideSec/WDScanner](https://github.com/TideSec/WDScanner)
+
 
 - 《2019.05-智能摄像头安全分析及案例参考》
 
@@ -90,9 +91,9 @@
 
     2019年研究工控安全的时候顺便学习了一些开源模糊测试框架Peach，文章系统介绍了Peach的结构、原理及pit文件编写方法，旨在帮助对模糊测试感兴趣的小伙伴能快速入门peach，最后以常见的http协议和工控Modbus协议为例进行了实验。
     
-    ```
-    https://github.com/TideSec/Peach_Fuzzing
-    ```
+
+    [https://github.com/TideSec/Peach_Fuzzing](https://github.com/TideSec/Peach_Fuzzing)
+
     
 - 《2019.12-Tide安全团队2019年度总结》
     
@@ -102,16 +103,13 @@
 
     因为实战中遇到不少weblogic配置文件包含加密字段的情况，所以搜集了市面上绝大部分weblogic解密方式，整理了7种解密weblogic的方法及响应工具。
     
-    ```
-    https://github.com/TideSec/Decrypt_Weblogic_Password
-    ```
+    [https://github.com/TideSec/Decrypt_Weblogic_Password](https://github.com/TideSec/Decrypt_Weblogic_Password)
+
 - 2020.02-远控免杀从入门到实践
     
     从2020年1月份开始到2020年6月，陆陆续续写了六七十篇关于免杀的文章，主要包括四部分内容：工具篇、代码篇、白名单篇、其他（实战）篇。2021年本来也打算再更新一些免杀新姿势，由于各种原因一拖再拖。
     
-    ```
-    https://github.com/TideSec/BypassAntiVirus
-    ```
+    [https://github.com/TideSec/BypassAntiVirus](https://github.com/TideSec/BypassAntiVirus)
     
     从中精选了部分内容：
     ```
@@ -124,7 +122,7 @@
     《2020.04-远控免杀从入门到实践(7)-代码篇-Golang+Ruby》
     《2020.05-远控免杀从入门到实践之白名单（113个）总结篇》
     ```
- 
+
 - 《2020.05-Mimikatz的18种免杀姿势及防御策略》
     
     针对Mimiktaz进行免杀的研究，主要是想研究学习一下比较通用的exe的免杀方式，涉及源码免杀、无源码免杀、powershell免杀、加载器分离免杀、白名单免杀等方面，共18种免杀姿势。
