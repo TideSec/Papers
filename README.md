@@ -133,9 +133,7 @@
     
     Mars(战神)，设计初衷是想做个专门挖SRC的平台，能自动化的比较全面的搜集资产信息并能监测资产的变化情况，及时发现新应用或新服务，并能自动化匹配POC进行检测，进而提高SRC漏洞挖掘效率，所以在资产发现、指纹探测、变更监测方面做的稍微细致一些。
     
-    ```
-    https://github.com/TideSec/Mars
-    ```
+    [https://github.com/TideSec/Mars](https://github.com/TideSec/Mars)
 
 # About Me
 
