@@ -27,30 +27,31 @@
 | 19 | 2020.05 | 远控免杀从入门到实践之白名单（113个）总结篇.pdf |
 | 20 | 2020.06 | Mimikatz的18种免杀姿势及防御策略.pdf |
 | 21 | 2020.06 | Tide-Mars：一款资产管理与威胁监测平台.pdf |
+| 22 | 2022.05 | 自动化渗透测试工具开发实践.pdf |
+
+
 
 
 # Content
 
 - **《2018.04-FuzzScanner：信息搜集开源小工具》**
-    
+  
     为了hw临时写的一个工具，主要是使用python调用了多个工具对目标进行自动化的信息搜集并分析结果，主要包括网站子域名、开放端口、端口指纹、c段地址、敏感目录、链接爬取等信息。
     
     [https://github.com/TideSec/FuzzScanner](https://github.com/TideSec/FuzzScanner)
 
 - **《2018.09-Tide(潮汐)网络空间探测平台建设思路分享》**
-    
+  
     花费了两三个月做了一个类似fofa、钟馗之眼的网络空间探测平台，文章介绍了基本的思路和实现方法，开始是计划开源的，因为政策监管问题目前只是内部在使用。
 
     [https://github.com/TideSec/Tide](https://github.com/TideSec/Tide)
 
-    
 - **《2018.12-Web弱口令通用检测方法探究》**
-    
+  
     提供了一个通用web弱口令破解思路，最初是为了批量探测管理后台，后来加入了管理后台弱口令的探测，旨在批量检测那些没有验证码的管理后台，有验证码的除了OCR、卷积神经网络或者人工打码平台，目前还没法有效解决。
     
     [https://github.com/TideSec/web_pwd_common_crack](https://github.com/TideSec/web_pwd_common_crack)
 
-    
 - **《2019.03-Proxy_Pool自动化代理搜集+评估+存储+展示工具》**
 
     Proxy_Pool（代理资源池），一个小巧的代理ip抓取+评估+存储+展示的一体化的工具，包括了web展示和接口。
@@ -84,7 +85,7 @@
     [https://github.com/TideSec/Peach_Fuzzing](https://github.com/TideSec/Peach_Fuzzing)
 
 - **《2019.12-Tide安全团队2019年度总结》**
-    
+  
     2019年算是Tide安全团队正式对外发文章、做开源、写平台的一年，一年下来收获还是不小的，感慨之余写了这篇总结，惟愿每年都有新的进步。
     
 - **《2019.12-一文解密所有weblogic密文》**
@@ -94,7 +95,7 @@
     [https://github.com/TideSec/Decrypt_Weblogic_Password](https://github.com/TideSec/Decrypt_Weblogic_Password)
 
 - **2020.02-远控免杀从入门到实践**
-    
+  
     从2020年1月份开始到2020年6月，陆陆续续写了六七十篇关于免杀的文章，主要包括四部分内容：工具篇、代码篇、白名单篇、其他（实战）篇。2021年本来也打算再更新一些免杀新姿势，由于各种原因一拖再拖。
     
     [https://github.com/TideSec/BypassAntiVirus](https://github.com/TideSec/BypassAntiVirus)
@@ -112,14 +113,20 @@
     ```
 
 - **《2020.05-Mimikatz的18种免杀姿势及防御策略》**
-    
+  
     针对Mimiktaz进行免杀的研究，主要是想研究学习一下比较通用的exe的免杀方式，涉及源码免杀、无源码免杀、powershell免杀、加载器分离免杀、白名单免杀等方面，共18种免杀姿势。
 
 - **《2020.06-Tide-Mars：一款资产管理与威胁监测平台》**
-    
+
     Mars(战神)，设计初衷是想做个专门挖SRC的平台，能自动化的比较全面的搜集资产信息并能监测资产的变化情况，及时发现新应用或新服务，并能自动化匹配POC进行检测，进而提高SRC漏洞挖掘效率，所以在资产发现、指纹探测、变更监测方面做的稍微细致一些。
+
+    [https://github.com/TideSec/Mars](https://github.com/TideSec/Mars) 
+
+- **《2022.05-自动化渗透测试工具开发实践》**
+
+    开发了一款自动化渗透测试工具，记录了一下一些功能的实现方法。该工具使用Golang开发为CS架构，集“资产探测-服务识别-爬虫-被动监测-漏洞扫描-POC检测-截屏-报告”于一体，适合甲方或乙方安服团队对目标系统进行全面的安全检测并输出报告。
+
     
-    [https://github.com/TideSec/Mars](https://github.com/TideSec/Mars)
 
 # About Me
 
